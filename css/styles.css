@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+/* common */
+
+body {
+  font-size: 14px;
+  font-family: Verdana, sans-serif;
+  color: #333;  /* black-ish color for characters */
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 2;
+}
+
+img.shadow {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+/* header */
+
+header {
+  background-image: url("../img/header-background.jpg");
+  background-size: cover;
+}
+
+header .container {
+  width: 820px;
+  margin: 0 auto; /* 0 for top/bottom, auto for left/right */
+  height: 320px;
+  padding-top: 100px;
+  position: relative;
+}
+
+header h1 {
+  padding-top: 50px;
+  font-size: 34px:
+}
+
+header img {
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+}
+
+
+/* sections */
+
+section {
+  padding: 90px;
+}
+
+section:nth-child(odd) {
+  background-color: #f8f8f8; /* gray color for odd-th sections */
+}
+
+section .container {
+  width: 820px;
+  margin: 0 auto; /* 0 for top/bottom, auto for left/right */
+}
+
+section h2 {
+  font-size: 26px;
+  text-align: center;
+  margin: 0 0 30px; /* 0 for top/left/right, 90px for bottom */
+  font-weight: normal;
+}
+
+/* desc */
+
+.desc .container .row h3 {
+  margin-top: 60px;
+}
+
+/* members */
+
+.members .container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.members .container .members h3 {
+  font-weight: normal;
+}
+
+.members .container .members p {
+  width: 400px;
+  font-weight: normal;
+}
