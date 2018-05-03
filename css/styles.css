@@ -93,6 +93,21 @@ section h2 {
   font-weight: normal;
 }
 
+/* contact */
+
+.contact .container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.contact .container div {
+  width: 300px;
+}
+
+.contact .container h3 {
+  font-weight: normal;
+}
 
 /* footer */
 
