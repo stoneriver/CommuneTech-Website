@@ -92,3 +92,14 @@ section h2 {
   width: 400px;
   font-weight: normal;
 }
+
+
+/* footer */
+
+footer {
+  padding: 90;
+  mergin-bottom: 0;
+  text-align: center;
+  color: #ccc;
+  background-color: #f8f8f8;
+}
