@@ -16,6 +16,15 @@ p {
   line-height: 2;
 }
 
+.btn {
+  width: 290px;
+  line-height: 45px;
+  background-color: #8e8e8e;
+  text-align: center;
+  color: #e8e8e8;
+  border-radius: 5px;
+}
+
 img.shadow {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
@@ -95,25 +104,24 @@ section h2 {
 
 /* contact */
 
-.contact .container {
+.call-to-action .container {
   display: flex;
   justify-content: space-around;
   text-align: center;
 }
 
-.contact .container div {
+.call-to-action .container div {
   width: 300px;
 }
 
-.contact .container h3 {
+.call-to-action .container h3 {
   font-weight: normal;
 }
 
 /* footer */
 
 footer {
-  padding: 90;
-  mergin-bottom: 0;
+  padding: 40px;
   text-align: center;
   color: #ccc;
   background-color: #f8f8f8;
